@@ -9,6 +9,10 @@ export default function DetailedPlantList(props) {
         // {...dplant}
         genus={dplant.genus}
         image={dplant.image}
+        name={dplant.name}
+        water={dplant.water}
+        sun={dplant.sun}
+        toxicity={dplant.toxicity}
       />)
     }
 
