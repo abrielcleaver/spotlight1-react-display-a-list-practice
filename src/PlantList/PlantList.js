@@ -6,7 +6,7 @@ export default function PlantList(props) {
     {props.plant.map((plant, i) => 
       <PlantItem 
         key={`${plant}-${i}`}
-        plants={plant}
+        plant={plant}
       />)
     }
   </div>;
