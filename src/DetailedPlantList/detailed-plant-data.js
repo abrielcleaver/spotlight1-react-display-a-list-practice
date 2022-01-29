@@ -1,8 +1,9 @@
+import monstera from './plant-images/monstera-deliciosa.jpg';
 
 export const detailedPlants = [
   {
         // img, name, genus, water, sun, & toxicity 
-    image: 'monstera-deliciosa.jpg',
+    image: monstera,
     name: 'Swiss Cheese plant',
     genus: 'Monstera  Deliciosa',
     water: 'Regular waterings during growing season every one to two weeks. During fall and winter only water occasionally. It is important for the soil to dry out slightly between waterings. ',
