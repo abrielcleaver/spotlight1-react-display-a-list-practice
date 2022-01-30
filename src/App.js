@@ -6,6 +6,8 @@ import { plants } from './PlantList/plants-data';
 import DetailedPlantList from './DetailedPlantList/DetailedPlantList';
 import { detailedPlants } from './DetailedPlantList/detailed-plant-data';
 
+import PlantsForSaleList from './PlantsForSale/PlantsForSaleList';
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,9 @@ function App() {
       </div>
       <div>
         <DetailedPlantList dplant={detailedPlants} />
+      </div>
+      <div>
+        <PlantsForSaleList />
       </div>
     </div>
   );
