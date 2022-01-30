@@ -13,8 +13,8 @@ export default function DetailedPlantList(props) {
         water={dplant.water}
         sun={dplant.sun}
         toxicity={dplant.toxicity}
-      />)
-    }
+      />
+    )}
 
   </div>;
 }

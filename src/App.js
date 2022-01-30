@@ -7,6 +7,7 @@ import DetailedPlantList from './DetailedPlantList/DetailedPlantList';
 import { detailedPlants } from './DetailedPlantList/detailed-plant-data';
 
 import PlantsForSaleList from './PlantsForSale/PlantsForSaleList';
+import { products } from './PlantsForSale/for-sale-data';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <DetailedPlantList dplant={detailedPlants} />
       </div>
       <div>
-        <PlantsForSaleList />
+        <PlantsForSaleList forsale={products}/>
       </div>
     </div>
   );
