@@ -1,6 +1,6 @@
 
 export const plants = [
   'Monstera Deliciosa', 
-  'Philodendron', 
-  'Chinese Evergreen'
+  'Radiator Plant',
+  'Philodendron'
 ];
