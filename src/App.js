@@ -12,7 +12,7 @@ import { products } from './PlantsForSale/for-sale-data';
 function App() {
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+        Welcome to Abriel&apos;s Plant Lists! I created these by passing the arrays as props. :)
       <div>
         <PlantList plant={plants} />
       </div>
