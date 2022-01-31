@@ -10,6 +10,7 @@ import PlantsForSaleList from './PlantsForSale/PlantsForSaleList';
 import { products } from './PlantsForSale/for-sale-data';
 
 import PeopleWhoLovePlantsList from './PeopleWhoLovePlantsList/PeopleWhoLovePlantsList';
+import { people } from './PeopleWhoLovePlantsList/people-data';
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
         <PlantsForSaleList forsale={products}/>
       </div>
       <div>
-        <PeopleWhoLovePlantsList />
+        <PeopleWhoLovePlantsList person={people}/>
       </div>
     </div>
   );
