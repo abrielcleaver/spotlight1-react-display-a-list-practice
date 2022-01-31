@@ -4,11 +4,11 @@ import amber from './people-images/amber.png';
 
 export const people = [
   {
-    name: 'Christopher Griffin aka Plant Kween',
+    name: 'Christopher Griffin',
     image: plantkween,
     pronouns: 'she/her',
     description: {
-      firstName: 'Christopher',
+      firstName: 'Christopher aka Plant Kween',
       location: 'Brooklyn-based,',
       identity: 'Black queer non-binary kween and LGBTQIA+ activist',
       passion: 'community building through plants!',
@@ -22,7 +22,7 @@ export const people = [
     description: {
       firstName: 'Mel',
       location: 'LA-based, Brooklyn raised',
-      identity: 'Yoga teacher, Black lesbian activist, and well-being advocate',
+      identity: 'Yoga teacher, Black lesbian activist',
       passion: 'the founder of Black Women’s Yoga Collective (@blackwomensyogaco), a Health & wellness organization dedicated to increasing access to wellness for Black and brown folks.',
       instagram: ' @meldouglasyoga',
     }
