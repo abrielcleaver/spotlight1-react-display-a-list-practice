@@ -1,4 +1,4 @@
-import './DetailedPlantList.css';
+// import './DetailedPlantList.css';
 import DetailedPlantItem from './DetailedPlantItem';
 
 export default function DetailedPlantList(props) {

@@ -33,7 +33,7 @@ h3 {
   width: 100%;
 }
 
-p {
+.detailed-plant-item p {
   color:var(--color-1);
   margin: 5px;
 }
