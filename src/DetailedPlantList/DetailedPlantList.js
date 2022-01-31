@@ -3,7 +3,7 @@ import DetailedPlantItem from './DetailedPlantItem';
 
 export default function DetailedPlantList(props) {
   return <div>
-    <h3>Check out more information on these plants below!</h3>
+    <h3 className="plant-info">Check out more information on these plants below!</h3>
     <div className="detailed-plant-list">
       {props.dplant.map((dplant, i) => 
         <DetailedPlantItem
