@@ -1,8 +1,17 @@
-
 import React from 'react';
+import PeopleWhoLovePlantsItem from './PeopleWhoLovePlantsItem';
 
-export default function PeopleWhoLovePlantsList() {
+export default function PeopleWhoLovePlantsList(props) {
   return <div>
-    <h2>Congratulations, you rendered PeopleWhoLovePlantsList!</h2>
+    <div>
+      <h2>Congratulations, you rendered PeopleWhoLovePlantsList!</h2>
+    </div>
+    <div>
+      {props.person.map((person, i) => 
+        <PeopleWhoLovePlantsItem key={`${person}-${i}`}
+          {...person}
+        />
+      )}
+    </div>
   </div>;
 }
