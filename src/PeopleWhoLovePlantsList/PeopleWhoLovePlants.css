@@ -1,0 +1,34 @@
+
+.people-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.people-item {
+  border: 3px solid var(--color-2);
+  background-color: var(--color-4);
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 70px;
+  padding: 10px;
+}
+
+.people-item .img {
+  width: 100%;
+}
+
+.people-item p {
+  color:var(--color-1);
+  margin: 5px;
+}
+
+.people-item h3 {
+  color:var(--color-1);
+  margin: 2%;
+}
